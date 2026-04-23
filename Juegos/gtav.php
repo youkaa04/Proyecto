@@ -123,31 +123,51 @@ GALERÍA
 
         <div class="footer-left">
             <h3>Contacto</h3>
-            <p>Soporte: <a href="mailto:soporte@joystickdrawer.com">soporte@joystickdrawer.com</a></p>
+            <p>Soporte: <a href="mailto:suporte@joystickdrawer.com">suporte@joystickdrawer.com</a></p>
         </div>
 
         <div class="footer-right">
             <h3>Síguenos</h3>
             <div class="social-icons">
-                <a href="https://instagram.com" target="_blank"><img src="../Imagenes/icons/instagram.png"></a>
-                <a href="https://tiktok.com" target="_blank"><img src="../Imagenes/icons/tiktok.png"></a>
-                <a href="https://linkedin.com" target="_blank"><img src="../Imagenes/icons/linkedin.png"></a>
-                <a href="https://twitch.tv" target="_blank"><img src="../Imagenes/icons/twitch.png"></a>
-                <a href="https://youtube.com" target="_blank"><img src="../Imagenes/icons/youtube.png"></a>
-                <a href="https://facebook.com" target="_blank"><img src="../Imagenes/icons/facebook.png"></a>
-                <a href="https://x.com" target="_blank"><img src="../Imagenes/icons/x.png"></a>
+
+                <a href="" target="_blank">
+                    <img src="../Imagenes/icons/instagram.png" alt="Instagram">
+                </a>
+
+                <a href="" target="_blank">
+                    <img src="../Imagenes/icons/tiktok.png" alt="TikTok">
+                </a>
+
+                <a href="" target="_blank">
+                    <img src="../Imagenes/icons/linkedin.png" alt="LinkedIn">
+                </a>
+
+                <a href="" target="_blank">
+                    <img src="../Imagenes/icons/twitch.png" alt="Twitch">
+                </a>
+
+                <a href="" target="_blank">
+                    <img src="../Imagenes/icons/youtube.png" alt="YouTube">
+                </a>
+
+                <a href="" target="_blank">
+                    <img src="../Imagenes/icons/facebook.png" alt="Facebook">
+                </a>
+
+                <a href="" target="_blank">
+                    <img src="../Imagenes/icons/x.png" alt="X">
+                </a>
+
             </div>
         </div>
 
     </div>
-
     <div class="pie_container">
         <strong class="pie_strong">
             Plataforma feta amb estima per la Comunitat Valenciana.<br>
             Un punt de trobada per a tots els valencians i valencianes.
         </strong>
     </div>
-
     <div class="footer-bottom">
         © 2026 JOYSTICKDRAWER — Todos los derechos reservados
     </div>

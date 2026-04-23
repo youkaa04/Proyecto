@@ -166,31 +166,31 @@
             <h3>Síguenos</h3>
             <div class="social-icons">
 
-                <a href="https://instagram.com" target="_blank">
+                <a href="" target="_blank">
                     <img src="../Imagenes/icons/instagram.png" alt="Instagram">
                 </a>
 
-                <a href="https://tiktok.com" target="_blank">
+                <a href="" target="_blank">
                     <img src="../Imagenes/icons/tiktok.png" alt="TikTok">
                 </a>
 
-                <a href="https://linkedin.com" target="_blank">
+                <a href="" target="_blank">
                     <img src="../Imagenes/icons/linkedin.png" alt="LinkedIn">
                 </a>
 
-                <a href="https://twitch.tv" target="_blank">
+                <a href="" target="_blank">
                     <img src="../Imagenes/icons/twitch.png" alt="Twitch">
                 </a>
 
-                <a href="https://youtube.com" target="_blank">
+                <a href="" target="_blank">
                     <img src="../Imagenes/icons/youtube.png" alt="YouTube">
                 </a>
 
-                <a href="https://facebook.com" target="_blank">
+                <a href="" target="_blank">
                     <img src="../Imagenes/icons/facebook.png" alt="Facebook">
                 </a>
 
-                <a href="https://x.com" target="_blank">
+                <a href="" target="_blank">
                     <img src="../Imagenes/icons/x.png" alt="X">
                 </a>
 
