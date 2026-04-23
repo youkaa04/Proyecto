@@ -129,7 +129,8 @@ GALERÍA
 
         <div class="footer-left">
             <h3>Contacto</h3>
-            <p>Soporte: <a href="mailto:suporte@joystickdrawer.com">suporte@joystickdrawer.com</a></p>
+            <p>Soporte: <a href="mailto:suporte.joystickdrawer@gmail.com
+            ">suporte.joystickdrawer@gmail.com</a></p>
         </div>
 
         <div class="footer-right">

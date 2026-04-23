@@ -128,30 +128,30 @@ GALERÍA
 
         <div class="footer-left">
             <h3>Contacto</h3>
-            <p>Soporte: <a href="mailto:suporte@joystickdrawer.com">suporte@joystickdrawer.com</a></p>
+            <p>Soporte: <a href="mailto:suporte.joystickdrawer@gmail.com">suporte.joystickdrawer@gmail.com</a></p>
         </div>
 
         <div class="footer-right">
             <h3>Síguenos</h3>
             <div class="social-icons">
 
-                <a href="" target="_blank">
+                <a href="https://www.instagram.com/joystickdrawer/" target="_blank">
                     <img src="../Imagenes/icons/instagram.png" alt="Instagram">
                 </a>
 
-                <a href="" target="_blank">
+                <a href="https://www.tiktok.com/@joystickdrawer" target="_blank">
                     <img src="../Imagenes/icons/tiktok.png" alt="TikTok">
                 </a>
 
-                <a href="" target="_blank">
+                <a href="https://www.linkedin.com/feed/" target="_blank">
                     <img src="../Imagenes/icons/linkedin.png" alt="LinkedIn">
                 </a>
 
-                <a href="" target="_blank">
+                <a href="https://www.twitch.tv/" target="_blank">
                     <img src="../Imagenes/icons/twitch.png" alt="Twitch">
                 </a>
 
-                <a href="" target="_blank">
+                <a href="https://www.youtube.com/" target="_blank">
                     <img src="../Imagenes/icons/youtube.png" alt="YouTube">
                 </a>
 
@@ -159,7 +159,7 @@ GALERÍA
                     <img src="../Imagenes/icons/facebook.png" alt="Facebook">
                 </a>
 
-                <a href="" target="_blank">
+                <a href="https://x.com/JoyStickDrawer" target="_blank">
                     <img src="../Imagenes/icons/x.png" alt="X">
                 </a>
 
