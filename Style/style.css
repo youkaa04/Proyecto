@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #2c5364);
+    color: white;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: rgba(0,0,0,0.4);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    color: #ff7b00; /* naranja del logo */
+}
+
+/* BOTONES */
+.btn {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.login {
+    background: #00c6ff;
+}
+
+.register {
+    background: #ff4ecd;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* BUSCADOR */
+.search-section {
+    text-align: center;
+    margin: 30px;
+}
+
+.search-section input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 8px;
+    border: none;
+}
+
+.search-section button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #00ff88;
+    color: black;
+    cursor: pointer;
+}
+
+/* JUEGOS */
+.games {
+    padding: 20px;
+}
+
+.games h2 {
+    text-align: center;
+}
+
+
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.game-card button {
+    margin-top: 10px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background: #ff7b00;
+    color: white;
+    cursor: pointer;
+}
+
+/* CONTENEDOR DE TARJETAS */
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); /* MÁS ANCHAS */
+    gap: 25px;
+    padding: 20px;
+}
+
+/* TARJETA */
+.game-card {
+    background: #111;
+    padding: 18px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 330px; /* LIMITE DE ANCHO PARA QUE SE VEAN GRANDES PERO CONTROLADAS */
+    margin: auto;     /* CENTRA LAS TARJETAS */
+}
+
+/* IMAGEN DE LA TARJETA */
+.game-card img {
+    width: 100%;
+    height: 240px;      /* UN POCO MÁS ALTA */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+/* FOOTER */
+.footer {
+    background: #0a0f24; /* Color más oscuro para separar del fondo */
+    padding: 50px 20px 20px;
+    margin-top: 60px;
+    border-top: 3px solid #ff7b00;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-inner {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/* SECCIÓN IZQUIERDA */
+.footer-left {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-left h3 {
+    color: #ff7b00;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.footer-left p,
+.footer-left a {
+    color: #dcdcdc;
+    font-size: 16px;
+}
+
+/* SECCIÓN DERECHA */
+.footer-right {
+    flex: 1;
+    min-width: 250px;
+    text-align: right;
+}
+
+.footer-right h3 {
+    color: #ff7b00;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* ICONOS */
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 18px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1); /* Blanco */
+    transition: 0.25s ease;
+    opacity: 0.85;
+}
+
+.social-icons img:hover {
+    transform: scale(1.25);
+    opacity: 1;
+    filter: brightness(1) invert(0); /* Negro */
+}
+
+/* PARTE INFERIOR */
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    color: #bfbfbf;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.pie_container{
+    text-align: center;
+    margin-top: 30px;
+}
+.pie_strong{
+    display: block;      
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+

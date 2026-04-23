@@ -1,0 +1,256 @@
+/* ===============================
+   FORTNITE PAGE
+   =============================== */
+
+body.fn-page {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(180deg, #0a0a1a 0%, #1a0033 100%);
+    color: #e0e0ff;
+}
+
+/* ===============================
+   HEADER
+   =============================== */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: rgba(10, 0, 40, 0.75);
+    border-bottom: 2px solid #7a00ff;
+}
+
+.logo img {
+    width: 55px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    color: #7a00ff;
+    margin: 0;
+}
+
+/* ===============================
+   BOTONES
+   =============================== */
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.login {
+    background: #444;
+}
+
+.register {
+    background: #7a00ff;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* ===============================
+   SECCIÓN 1 - IMAGEN + INFO
+   =============================== */
+
+.game-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 60px;
+    gap: 40px;
+    align-items: center;
+}
+
+.game-top-left img {
+    width: 80%;
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(122, 0, 255, 0.45);
+}
+
+.game-top-right h1 {
+    font-size: 48px;
+    color: #b366ff;
+}
+
+.game-top-right p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* BOTÓN COMPRAR */
+.btn-orange {
+    background: #7a00ff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* ===============================
+   VIDEO
+   =============================== */
+
+.game-video-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.game-video {
+    width: 80%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #7a00ff;
+}
+/* VIDEO 2 más pequeño */
+/* VIDEO 2 reducido y bonito */
+.game-video.small {
+    width: 55%;          /* tamaño relativo, elegante */
+    max-width: 420px;    /* límite para que no crezca demasiado */
+    height: auto;        /* mantiene proporción perfecta */
+    border-radius: 12px;
+    border: 2px solid #b30000;
+    display: block;
+    margin: 0 auto;      /* centrado */
+}
+
+
+
+/* ===============================
+   GALERÍA
+   =============================== */
+
+.game-gallery {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.carousel-container {
+    width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+}
+
+.carousel-item img {
+    width: auto;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 0 25px rgba(122, 0, 255, 0.45);
+}
+
+.img-desc {
+    margin-top: 12px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* ===============================
+   CUADRO DE PRECIO
+   =============================== */
+
+.precio-box {
+    background: #120022;
+    padding: 30px;
+    margin: 40px auto;
+    width: 70%;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid #7a00ff;
+    box-shadow: 0 0 25px rgba(122, 0, 255, 0.35);
+}
+
+.precio-original {
+    font-size: 42px;
+    color: #ff66ff;
+    font-weight: bold;
+}
+
+.precio-nota {
+    font-size: 15px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.btn-comprar-final {
+    background: #7a00ff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Imagen dentro del cuadro de compra */
+.compra-img {
+    width: 80%;          /* tamaño elegante */
+    max-width: 900px;    /* límite para que no se haga gigante */
+    height: auto;        /* mantiene proporción */
+    display: block;
+    margin: 0 auto 15px auto; /* centrada */
+    border-radius: 12px;
+    border: 2px solid #3a3a3a; /* borde suave */
+}
+
+
+/* ===============================
+   FOOTER
+   =============================== */
+
+.footer {
+    background: #0a001a;
+    padding: 40px 20px;
+    color: #ccc;
+    margin-top: 60px;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left h3,
+.footer-right h3 {
+    color: #b366ff;
+}
+
+.social-icons img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.pie_container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pie_strong {
+    color: #b366ff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+    opacity: 0.7;
+}

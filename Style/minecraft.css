@@ -1,0 +1,164 @@
+/* ===============================
+   ESTILO GENERAL MINECRAFT
+   =============================== */
+
+.mc-page {
+    background: #0d1f0d;
+    color: #e0ffe0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 3px solid #3fa63f;
+}
+
+.logo img {
+    width: 55px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    color: #3fa63f;
+}
+
+/* BOTONES */
+.btn {
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.login { background: #2e8b57; }
+.register { background: #3fa63f; }
+
+.btn:hover { opacity: 0.8; }
+
+/* SECCIÓN 1 */
+.game-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 60px;
+    gap: 40px;
+    align-items: center;
+}
+
+.game-top-left img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(63, 166, 63, 0.4);
+}
+
+.game-top-right h1 {
+    font-size: 48px;
+    color: #3fa63f;
+}
+
+.btn-orange {
+    background: #3fa63f;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* VIDEO */
+.game-video-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.game-video {
+    width: 80%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 3px solid #3fa63f;
+}
+
+/* GALERÍA */
+.carousel-container {
+    width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+}
+
+.carousel-item img {
+    height: 450px;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 0 25px rgba(63, 166, 63, 0.45);
+}
+
+.img-desc {
+    margin-top: 12px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* PRECIO */
+.precio-box {
+    background: #122312;
+    padding: 30px;
+    margin: 40px auto;
+    width: 70%;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid #3fa63f;
+    box-shadow: 0 0 25px rgba(63, 166, 63, 0.35);
+}
+
+.precio-original {
+    font-size: 42px;
+    color: #4cff4c;
+    font-weight: bold;
+}
+
+.compra-img {
+    width: 100%;
+    max-width: 650px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+/* FOOTER */
+.footer {
+    background: #0a150a;
+    padding: 50px 20px 20px;
+    margin-top: 60px;
+    border-top: 3px solid #3fa63f;
+}
+
+.footer-left h3,
+.footer-right h3 {
+    color: #3fa63f;
+}
+
+.social-icons img {
+    width: 30px;
+    filter: brightness(0) invert(1);
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}

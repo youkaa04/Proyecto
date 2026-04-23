@@ -1,0 +1,297 @@
+/* ================================
+   LEAGUE OF LEGENDS PAGE
+   ================================ */
+
+.lol-page {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: radial-gradient(circle at top, #0a1428 0%, #020915 40%, #000000 100%);
+    color: #e0e6ff;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: linear-gradient(90deg, #050816, #091428);
+    border-bottom: 1px solid #1f2937;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.nav-buttons .btn {
+    margin-left: 10px;
+}
+
+/* Botones genéricos */
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid #c8aa6e;
+    background: transparent;
+    color: #f5f5f5;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background: #c8aa6e;
+    color: #050816;
+}
+
+.btn.login {
+    border-color: #c8aa6e;
+}
+
+.btn.register {
+    background: #c8aa6e;
+    color: #050816;
+}
+
+/* Botón naranja (principal) */
+
+.btn-orange {
+    background: #c89b3c;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    color: #050816;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-orange:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Sección superior del juego */
+
+.game-top {
+    display: flex;
+    padding: 40px 60px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.game-top-left img {
+    width: 260px;
+    height: auto;
+    border-radius: 16px;
+    border: 2px solid #c8aa6e;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+
+.game-top-right h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.game-top-right p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #cbd5f5;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/* Video sections */
+
+.game-video-section {
+    text-align: center;
+    padding: 60px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.game-video-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #f5f5f5;
+}
+
+.game-video {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 12px;
+    border: 2px solid #1f2937;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+}
+
+.game-video.small {
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Galería */
+
+.game-gallery {
+    padding: 40px 60px;
+}
+
+.game-gallery h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f5f5f5;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-track {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.carousel-item {
+    min-width: 260px;
+    background: #050816;
+    border-radius: 12px;
+    padding: 12px;
+    border: 1px solid #1f2937;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.img-desc {
+    font-size: 14px;
+    color: #e0e6ff;
+}
+
+/* Cuadro de precio / compra */
+
+.precio-box {
+    margin-top: 20px;
+    padding: 20px;
+    background: #050816;
+    border-radius: 12px;
+    border: 1px solid #c8aa6e;
+    max-width: 420px;
+}
+
+.precio-box h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #f5f5f5;
+}
+
+.precio-info {
+    margin-top: 10px;
+}
+
+.precio-original {
+    font-size: 18px;
+    color: #c89b3c;
+    text-decoration: line-through;
+}
+
+/* Imagen dentro del cuadro de compra */
+
+.compra-img {
+    width: 80%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+    border-radius: 12px;
+    border: 2px solid #3a3a3a;
+}
+
+/* ================================
+   FOOTER
+   ================================ */
+
+.footer {
+    background: #020915;
+    padding: 40px 20px;
+    color: #ccc;
+    margin-top: 60px;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left h3,
+.footer-right h3 {
+    color: #c8aa6e;
+}
+
+.footer-left p a {
+    color: #e0e6ff;
+    text-decoration: none;
+}
+
+.footer-left p a:hover {
+    text-decoration: underline;
+}
+
+.social-icons img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.pie_container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pie_strong {
+    color: #c8aa6e;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+    opacity: 0.7;
+    font-size: 13px;
+}
+.game-gallery {
+    padding: 60px 20px;
+    text-align: center;
+}
