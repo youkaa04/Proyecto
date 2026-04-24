@@ -8,7 +8,10 @@
     <body>
         <div class="login-container">
           <h1>Iniciar sesión</h1>
-          <?php if ($error): ?><p class="error"><?= htmlspecialchars($error) ?></p><?php endif; ?>
+          <?php 
+            $error = "";
+            if ($error): ?><p class="error"><?= htmlspecialchars($error) 
+          ?></p><?php endif; ?>
           <form method="post">
             <label>Usuario
               <input type="text" name="username" required>
