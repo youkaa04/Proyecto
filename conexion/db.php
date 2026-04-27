@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
-$db   = 'prueba';
-$user = 'ysf';
+$db   = 'joy';
+$user = 'admin_ysf';
 $pass = '1234';
 
 try {
@@ -10,3 +10,23 @@ try {
 } catch (PDOException $e) {
     die("Error DB: " . $e->getMessage());
 }
+
+$nombre = $_POST['nombre'];
+$password = $_POST['password'];
+
+// Buscar usuario
+$stmt = $pdo->prepare("SELECT * FROM usuarios WHERE nombre = ?");
+$stmt->execute([$nombre]);
+$user = $stmt->fetch(PDO::FETCH_ASSOC);
+
+if (!$user) {
+    die("Usuario no encontrado");
+}
+
+// Verificar contraseña
+if (password_verify($password, $user['password'])) {
+    echo "Login correcto";
+} else {
+    echo "Contraseña incorrecta";
+}
+?>
