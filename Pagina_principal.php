@@ -106,7 +106,7 @@ $games = [
             <h3>Síguenos</h3>
             <div class="social-icons">
 
-                <a href="" target="_blank">
+                <a href="https://www.instagram.com/joystickdrawer/" target="_blank">
                     <img src="Imagenes/icons/instagram.png" alt="Instagram">
                 </a>
 

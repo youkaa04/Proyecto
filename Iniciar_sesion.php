@@ -9,8 +9,9 @@
 
 <div class="top-logo">
     <a href="Pagina_principal.php">
-    <img src="Imagenes/logo.PNG" alt="Logo">
-    <h1>JOYSTICKDRAWER</h1>
+        <img src="Imagenes/logo.PNG" alt="Logo">
+        <h1>JOYSTICKDRAWER</h1>
+    </a>
 </div>
 
 <div class="container">
