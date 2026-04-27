@@ -31,6 +31,12 @@ $password_hash = password_hash($password, PASSWORD_DEFAULT);
 // Insertar usuario en la base de datos
 $stmt = $pdo->prepare("INSERT INTO usuarios (nombre, apellido, telefono, correo, pass) 
                        VALUES (?, ?, ?, ?, ?)");
+if ($stmt->execute()) {
+    echo "OK";
+} else {
+    echo "ERROR: " . $stmt->error;
+}
+
 
 if ($stmt->execute([$nombre, $apellido, $telefono, $correo, $password_hash])) {
     echo "Registro completado correctamente";
