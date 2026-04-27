@@ -11,6 +11,7 @@ try {
     die("Error DB: " . $e->getMessage());
 }
 
+
 $nombre = $_POST['nombre'];
 $password = $_POST['password'];
 
