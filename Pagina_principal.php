@@ -71,7 +71,7 @@ $games = [
             <a href="logout.php" class="btn logout">Cerrar sesión</a>
         <?php else: ?>
             <a href="Iniciar_sesion.php" class="btn login">Iniciar sesión</a>
-            <!-- <a href="Registro.php" class="btn register">Registrarse</a> -->
+            <a href="Registro.php" class="btn register">Registrarse</a>
         <?php endif; ?>
     </div>
 </header>
