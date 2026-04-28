@@ -69,6 +69,7 @@ $games = [
     <div class="nav-buttons">
         <?php if (isset($_SESSION['usuario'])): ?>
             <a href="logout.php" class="btn logout">Cerrar sesión</a>
+            <?php echo "Hola " . $_SESSION['usuario']; ?>
         <?php else: ?>
             <a href="Iniciar_sesion.php" class="btn login">Iniciar sesión</a>
             <a href="Registro.php" class="btn register">Registrarse</a>

@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,14 +14,20 @@
 <body class="mc-page">
 
 <header>
-    <a href="../Pagina_principal.php" class="logo">
-        <img src="../Imagenes/logo.PNG" alt="logo">
+    <a href="/Proyecto/Pagina_principal.php" class="logo">
+        <img src="../Imagenes/Logo.PNG" alt="Logo">
         <h1>JOYSTICKDRAWER</h1>
     </a>
 
     <div class="nav-buttons">
-        <a href="../Iniciar_sesion.php" class="btn login">Iniciar sesión</a>
-        <a href="../Registro.php" class="btn register">Registrarse</a>
+        <?php if (isset($_SESSION['usuario'])): ?>
+            <a href="../logout.php" class="btn logout">Cerrar sesión</a>
+            <?php echo "Hola " . $_SESSION['usuario']; ?>
+
+        <?php else: ?>
+            <a href="../Iniciar_sesion.php" class="btn login">Iniciar sesión</a>
+            <a href="../Registro.php" class="btn register">Registrarse</a>
+        <?php endif; ?>
     </div>
 </header>
 
