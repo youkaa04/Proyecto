@@ -29,13 +29,10 @@ if (!$user) {
 // Verificar contraseña
 if (password_verify($password, $user['pass'])) {
     $_SESSION['usuario'] = $user['nombre'];
-<<<<<<< HEAD
     header("Location: Pagina_principal.php");
     exit();
-=======
     header("Location: admin.php");
     exit;
->>>>>>> f5f1341be48cc9897ea0da85436c8acd833bdf08
 } else {
     echo "Contraseña incorrecta";
 }
