@@ -19,21 +19,16 @@
 <div class="container">
     <h2>Crear cuenta</h2>
 
-    <form action="procesar_registro.php" method="POST">
+ <form action="procesar_registro.php" method="POST">
+    <input type="text" name="nombre" placeholder="Nombre" required>
+    <input type="text" name="apellido" placeholder="Apellido" required>
+    <input type="text" name="telefono" placeholder="Teléfono" required>
+    <input type="email" name="correo" placeholder="Correo" required>
+    <input type="password" name="password" placeholder="Contraseña" required>
+    <input type="password" name="password2" placeholder="Repetir contraseña" required>
+    <button type="submit">Registrarse</button>
+</form>
 
-        <input type="text" name="nombre" placeholder="Nombre *" required>
-        <input type="text" name="apellido" placeholder="Apellido *" required>
-        <input type="text" name="apellido2" placeholder="Segundo apellido">
-
-        <input type="tel" name="telefono" placeholder="Número de teléfono *" required>
-        <input type="email" name="correo" placeholder="Correo electrónico *" required>
-
-        <input type="password" name="password" placeholder="Contraseña *" required>
-        <input type="password" name="password2" placeholder="Repetir contraseña *" required>
-
-        <button type="submit">Registrarse</button>
-
-    </form>
 
     <p>¿Ya tienes cuenta? <a href="Iniciar_sesion.php">Inicia sesión</a></p>
 </div>

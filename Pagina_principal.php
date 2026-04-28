@@ -58,18 +58,24 @@ $games = [
 </head>
 <body>
 
-<header>
-    <div class="logo">
-        <img src="Imagenes/logo.PNG" alt="Logo">
-        <h1>JOYSTICKDRAWER</h1>
+<?php session_start(); ?>
 
-    </div>
+<header>
+    <a href="Pagina_principal.php" class="logo">
+        <img src="Imagenes/Logo.PNG" alt="Logo">
+        <h1>JOYSTICKDRAWER</h1>
+    </a>
 
     <div class="nav-buttons">
-        <a href="Iniciar_sesion.php" class="btn login">Iniciar sesión</a>
-        <a href="Registro.php" class="btn register">Registrarse</a>
+        <?php if (isset($_SESSION['usuario'])): ?>
+            <a href="logout.php" class="btn logout">Cerrar sesión</a>
+        <?php else: ?>
+            <a href="Iniciar_sesion.php" class="btn login">Iniciar sesión</a>
+            <!-- <a href="Registro.php" class="btn register">Registrarse</a> -->
+        <?php endif; ?>
     </div>
 </header>
+
 
 <section class="search-section">
     <input type="text" placeholder="Buscar videojuegos...">
